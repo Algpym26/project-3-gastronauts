@@ -9,7 +9,7 @@ const Navbar = () => {
   <span class="navbar-toggler-icon"></span>
   </button>
 
-<div className="collapse vavbar-collapse" id="navbarSupportedContent">
+<div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav me-auto mb-2 mb-lg-0"> 
     <li className="nav-item">
         login
