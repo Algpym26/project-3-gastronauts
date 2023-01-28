@@ -3,6 +3,7 @@
 }
 
 .App-logo {
+  background-image: url("./asset/images/restaurant01.jpg");
   height: 40vmin;
   pointer-events: none;
 }

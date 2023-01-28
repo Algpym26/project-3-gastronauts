@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Asantowasso/project-3-gastronauts/issues"
   },
-  "homepage": "https://github.com/Asantowasso/project-3-gastronauts#readme"
+  "homepage": "https://github.com/Asantowasso/project-3-gastronauts#readme",
+  "dependencies": {
+    "react-icons": "^4.7.1"
+  }
 }
