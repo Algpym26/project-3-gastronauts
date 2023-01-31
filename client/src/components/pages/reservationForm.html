@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./assets/css/reservation.css">
+    <title>Reservation Form Draft</title>
+    </head>
+
+    <body>
+        <form action="reservation.php" method="post">
+            <div class="elem-group">
+              <label for="name">Your Preferred Name</label>
+              <input type="text" id="name" name="visitor_name" placeholder="Mariely Brite" pattern=[A-Z\sa-z]{3,30} required>
+            </div>
+            <div class="elem-group">
+              <label for="email">Your E-mail</label>
+              <input type="email" id="email" name="visitor_email" placeholder="marbrite10@email.com" required>
+            </div>
+            <div class="elem-group">
+              <label for="phone">Your Phone Number (We text updates)</label>
+              <input type="tel" id="phone" name="visitor_phone" placeholder="498-348-3872" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+            </div>
+            <hr>
+            <div class="elem-group inlined">
+              <label for="adult">Adults</label>
+              <input type="number" id="adult" name="total_adults" placeholder="2" min="1" required>
+            </div>
+            <div class="elem-group inlined">
+              <label for="child">Children</label>
+              <input type="number" id="child" name="total_children" placeholder="2" min="0" required>
+            </div>
+            <div class="elem-group inlined">
+              <label for="reservation-date">Reservation Date</label>
+              <input type="date" id="reservation-date" name="reservation_date" required>
+            </div>
+            <div class="elem-group inlined">
+              <label for="reservation-time">Reservation Time</label>
+              <input type="time" id="reservation-time" name="reservation_time" step="900" required>
+            </div>
+            <div class="elem-group">
+              <label for="room-selection">Seating Preference</label>
+              <select id="seating-selection" name="seating-preference" required>
+                  <option value="">Choose a seating option or to-go</option>
+                  <option value="booth-seating">Booth</option>
+                  <option value="bar-seating">Bar</option>
+                  <option value="table-seating">Table</option>
+                  <option value="patio-seating">Patio</option>
+                  <option value="no-seating">No seating / To-Go Order</option>
+              </select>
+            </div>
+            <hr>
+            <div class="elem-group">
+              <label for="message">Is there anything else we should know about?</label>
+              <textarea id="message" name="visitor_message" placeholder="Dietary restrictions, handicap accessibility, special occasion, or something not listed here?" required></textarea>
+            </div>
+            <button type="submit">Reservation Takeoff!</button>
+          </form>
+    </body>
+</html>
