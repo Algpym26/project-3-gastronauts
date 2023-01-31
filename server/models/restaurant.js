@@ -26,6 +26,14 @@ const restaurantSchema = new Schema({
     {
       type: String,
     },
+
+    {
+      type: String
+    },
+
+    {
+      type: String
+    }
   ],
 
   tags: [
