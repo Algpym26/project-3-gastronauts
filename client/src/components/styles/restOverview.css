@@ -7,25 +7,39 @@
 
 .container {
     padding: 2px 16px;
-    padding-bottom: 15px;
-    
+    padding-bottom: 15px;  
 }
 
 .label {
     color: white;
     padding: 6px;
-  }
-
-ul {
-    list-style-type: none;
 }
 
-li {
-    border: 1px solid #B7C8B5;
-    margin-top: -1px;
-    background-color: #C5EBC3;
-    
+.menu {
+    align-items: center;
+    text-align: center;
+    margin: 1em auto;
+    border: 1px solid #ddd;
+    padding: .3em .6em;
+    background-color: #B7C8B5;
 }
+
+.menu p{
+    font-size: .9em;
+    color: #777;
+    margin-bottom: 1.5em;
+    font-style: italic;
+}
+
+h3 {
+    font-weight: 700;
+    margin: .7em 0 1em 0;
+}
+
+h3 span {
+float:left;
+}
+
 /*  
 MODEL:
     - name
