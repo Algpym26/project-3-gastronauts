@@ -16,6 +16,6 @@ var reservationTime = document.querySelector("#reservation-time");
 
 reservationDate.setAttribute("min", dateTomorrow);
 
-checkinElem.onchange = function () {
+reservationTime.onchange = function () {
     checkoutElem.setAttribute("min", this.value);
 }
