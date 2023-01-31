@@ -1,6 +1,10 @@
 const { Schema, model } = require('mongoose');
 
 //Will need to import a schema
+const { Schema } = mongoose;
+
+const restaurantSchema = require ('./restaurant')
+
 
 const UserSchema = new Schema(
   {
