@@ -2,18 +2,30 @@
     background-color: #875C74;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     align-items: center;
-    /* text-align: center; */
+    text-align: center;
 }
 
 .container {
     padding: 2px 16px;
     padding-bottom: 15px;
+    
 }
 
 .label {
     color: white;
     padding: 6px;
   }
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    border: 1px solid #B7C8B5;
+    margin-top: -1px;
+    background-color: #C5EBC3;
+    
+}
 /*  
 MODEL:
     - name
@@ -22,7 +34,7 @@ MODEL:
     - location
     - phone number
     - operation hours
-    - tags for handicap accessibility, gluten-free options, vegan options, patio/outdoor seating, etc.
+    - tags for handicap accessibility, gluten-free options, vegan options, patio/outdoor seating, dog friendly, family friendly, bar, etc.
 */
 /* Default Label Colors */
 .success {background-color: #04AA6D;} /* Green */
