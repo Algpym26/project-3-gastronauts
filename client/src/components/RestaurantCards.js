@@ -28,6 +28,47 @@ const reservationCards = () =>
         </svg>
         </div>
       </div>
+      <div class="card">
+        <h3 class="title">Far Out Bar</h3>
+        <div class="bar">
+          <div class="emptybar"></div>
+          <div class="filledbar"></div>
+        </div>
+        <div class="circle">
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+          <circle class="stroke" cx="60" cy="60" r="50"/>
+          <image href = {dipperImage} />
+        </svg>
+        </div>
+      </div>
+      <div class="card">
+        <h3 class="title">Estella's</h3>
+        <div class="bar">
+          <div class="emptybar"></div>
+          <div class="filledbar"></div>
+        </div>
+        <div class="circle">
+          <svg version="1.1"  xmlns="http://www.w3.org/2000/svg">
+          <circle class="stroke" cx="60" cy="60" r="50"/>
+          <image href = {cometImage} alt = "comet" />
+        </svg>
+        </div>
+      </div>
+      <div class="card">
+        <h3 class="title">At the End of the Universe</h3>
+        <div class="bar">
+          <div class="emptybar"></div>
+          <div class="filledbar"></div>
+        </div>
+        <div class="circle">
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+          <circle class="stroke" cx="60" cy="60" r="50"/>
+          <image href = {novaImage} />
+        </svg>
+        </div>
+      </div>
         </div>
     )
 }
+
+export default reservationCards;
