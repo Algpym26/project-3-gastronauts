@@ -18,6 +18,7 @@ body {
     width: 200px;
     background-color: #17141d;
     border-radius: 10px;
+    border:3px solid #cbc786;
     box-shadow: -1rem 0 3rem #000;
   /*   margin-left: -50px; */
     transition: 0.4s ease-out;
@@ -40,7 +41,7 @@ body {
     left: 50px;
     transition: 0.4s ease-out;
   }
-  
+
   .title {
     color: white;
     font-weight: 300;
@@ -84,6 +85,19 @@ body {
     top: 150px;
     left: calc(50% - 60px);
   }
+
+  image {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 36px;
+    opacity: 0;
+  }
+
+  image:hover {
+    opacity: 1;
+    transition: 0.6s ease-in;
+  }
   
   .stroke {
     stroke: white;
@@ -95,6 +109,7 @@ body {
   svg {
     fill: #6432c7;
     stroke-width: 2px;
+    z-index: -1;
   }
   
   .card:hover .stroke {

@@ -1,16 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="../styles/wheel.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400" rel="stylesheet">
-    <title>Restaurant Wheel Draft</title>
-  </head>
+import './styles/wheel.css';
 
-  <body>
-    <div class="container">
-      <div class="card">
+import './https://fonts.googleapis.com/css?family=Open+Sans:300i,400';
+
+const reservationCards = () =>
+{
+
+    const moonImage = "./asset/images/planet1.PNG";
+
+    const dipperImage = "./asset/images/dipper.PNG";
+
+    const cometImage = "./asset/images/comet.PNG";
+
+    const novaImage = "./asset/images/nova.PNG";
+
+    return (
+        <div className = "container">
+            <div class="card">
         <h3 class="title">Maggie's Moon Pies</h3>
         <div class="bar">
           <div class="emptybar"></div>
@@ -19,7 +24,7 @@
         <div class="circle">
           <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
           <circle id = "circleView" class="stroke" cx="60" cy="60" r="50"/>
-          <image href = "../../asset/images/planet1.PNG" alt = "moon" />
+          <image href = {moonImage} alt = "moon" />
         </svg>
         </div>
       </div>
@@ -32,7 +37,7 @@
         <div class="circle">
           <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
           <circle class="stroke" cx="60" cy="60" r="50"/>
-          <image href = "../../asset/images/dipper.PNG" alt = "dipper" />
+          <image href = {dipperImage} />
         </svg>
         </div>
       </div>
@@ -45,7 +50,7 @@
         <div class="circle">
           <svg version="1.1"  xmlns="http://www.w3.org/2000/svg">
           <circle class="stroke" cx="60" cy="60" r="50"/>
-          <image href = "../../asset/images/comet.PNG" alt = "comet" />
+          <image href = {cometImage} alt = "comet" />
         </svg>
         </div>
       </div>
@@ -58,11 +63,12 @@
         <div class="circle">
           <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
           <circle class="stroke" cx="60" cy="60" r="50"/>
-          <image href = "../../asset/images/nova.PNG"  alt = "nova" />
+          <image href = {novaImage} />
         </svg>
         </div>
       </div>
-    </div>
-  </body>
+        </div>
+    )
+}
 
-</html>
+export default reservationCards;
