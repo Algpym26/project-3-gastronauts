@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Mulish&display=swap');
+
 h1 {
     font-size:xx-large;
     color: #2E232A;
@@ -17,7 +19,7 @@ p {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     align-items: center;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Lato', 'Mulish',sans-serif;
 }
 
 .container {
@@ -33,7 +35,7 @@ p {
     align-items: center;
     text-align: center;
     margin: 1em auto;
-    border: 1px solid #ddd;
+    border: 1px solid whitesmoke;
     padding: .3em .6em;
     background-color: #B7C8B5;
 }
@@ -56,7 +58,7 @@ p {
     opacity: 0.6;
     transition: 0.3s;
     display: inline-block;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Lato', 'Mulish',sans-serif;
 }
 .resBtn:hover {opacity: 1}
 
@@ -78,4 +80,4 @@ MODEL:
 .info {background-color: #2196F3;} /* Blue */
 .warning {background-color: #ff9800;} /* Orange */
 .danger {background-color: #f44336;} /* Red */
-.other {background-color: #54414E; color: white;} /* Gray */
+.other {background-color: #54414E; color: whitesmoke;} /* CUSTOM */
