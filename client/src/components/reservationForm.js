@@ -23,19 +23,19 @@ if(month < 10) {
   month = '0' + month;
 }
 
-var dateTomorrow = year + "-" + month + "-" + date;
+var saveDate = year + "-" + month + "-" + date;
 
 var reservationDate = document.querySelector("#reservation-date");
 
 var reservationTime = document.querySelector("#reservation-time");
 
-reservationDate.setAttribute("min", dateTomorrow);
+reservationDate.setAttribute("min", saveDate);
 
-reservationTime.onchange = function () {
-    checkoutElem.setAttribute("min", this.value);
-    if(this.value.min < 15) {
-      min = 0;
-    }
+reservationDate.onchange = function () {
+    reservationTime.setAttribute("min", this.value);
+    // if(this.value.min < 15) {
+    //   min = 0;
+    // }
 }
 
     return (
