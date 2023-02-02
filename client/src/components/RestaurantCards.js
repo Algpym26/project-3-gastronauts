@@ -2,7 +2,7 @@ import './styles/wheel.css';
 
 import './https://fonts.googleapis.com/css?family=Open+Sans:300i,400';
 
-const reservationCards = () =>
+const ReservationCards = () =>
 {
 
     const moonImage = "./asset/images/planet1.PNG";
@@ -71,4 +71,4 @@ const reservationCards = () =>
     )
 }
 
-export default reservationCards;
+export default ReservationCards;
