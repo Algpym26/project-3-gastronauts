@@ -1,6 +1,7 @@
 import Header from '../components/Header';
 import Navbar from '../components/Navbar';
 import RestaurantCards from '../components/RestaurantCards';
+import Footer from '../components/Footer';
 import './styles/main.css';
 
 const Main = () => {
