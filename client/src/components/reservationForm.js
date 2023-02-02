@@ -1,6 +1,6 @@
 import './styles/reservation.css';
 
-const reservationForm = () => {
+const ReservationForm = () => {
 
     const userChecker = new RegExp("[A-Z\sa-z]{3,30}");
 
@@ -93,4 +93,4 @@ reservationTime.onchange = function () {
 
 }
 
-export default reservationForm;
+export default ReservationForm;
