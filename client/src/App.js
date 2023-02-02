@@ -1,13 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import { BrowserRouter as Routes, Route } from 'react-router-dom';
 import { ApolloClient, ApolloProvider, InMemoryCache } from '@apollo/client';
-import Header from './components/Header';
-import Navbar from './components/Navbar';
-import RestaurantCards from './components/RestaurantCards';
-import ReservationForm from './components/ReservationForm';
-import Footer from './components/Footer';
+import Main from '../src/components/Main';
+import Reservations from '../src/components/ReservationForm';
 
 const client = new ApolloClient({
   uri: '/graphql',
@@ -18,7 +14,8 @@ function App() {
   return (
     <ApolloProvider client = {client}>
     <Routes>
-    
+    <Route path = "/Gastronauts" element = {<Main />} />
+    <Route path = "/reservation" element = {<Reservations />} />
     </Routes>
     </ApolloProvider>
   );
