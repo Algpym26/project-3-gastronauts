@@ -8,7 +8,7 @@ const Footer = () => {
     <h2>Contact Us</h2>  
     <BsFillTelephoneInboundFill/>
     <MdEmail/>
-    <Location/>
+    <MdLocationCity/>
     </div>
   )
 }
