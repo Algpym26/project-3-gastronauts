@@ -6,7 +6,20 @@ import './styles/main.css';
 
 const Main = () => {
     return (
-        "PEOPLE!"
+        <div className = "App">
+            <div className = "Header">
+                <Header />
+            </div>
+            <div className = "Navbar">
+                <Navbar />
+            </div>
+            <div className = "RestaurantCards">
+                <RestaurantCards />
+            </div>
+            <div className = "Footer">
+                <Footer />
+            </div>
+            </div>
     )
 }
 
