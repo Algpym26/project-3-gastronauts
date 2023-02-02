@@ -1,44 +1,81 @@
+h1 {
+    font-size:xx-large;
+    color: #2E232A;
+}
+
+h2 {
+    font-size: x-large;
+    color: #2E232A;
+}
+
+p {
+    color: #54414E;
+}
+
 .card {
-    background-color: #875C74;
+    background-color: #A790A5;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     align-items: center;
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .container {
     padding: 2px 16px;
-    padding-bottom: 15px;
-    
+    padding-bottom: 15px;  
 }
 
 .label {
+    padding: 8px;
+}
+
+.menu {
+    align-items: center;
+    text-align: center;
+    margin: 1em auto;
+    border: 1px solid #ddd;
+    padding: .3em .6em;
+    background-color: #B7C8B5;
+}
+
+.menu p{
+    font-size: 1em;
+    color: #875C74;
+    margin-bottom: 1.5em;
+    font-style: italic;
+}
+
+.resBtn {
+    background-color: #875C74;
+    border: none;
     color: white;
-    padding: 6px;
-  }
-
-ul {
-    list-style-type: none;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.resBtn:hover {opacity: 1}
 
-li {
-    border: 1px solid #B7C8B5;
-    margin-top: -1px;
-    background-color: #C5EBC3;
-    
-}
 /*  
 MODEL:
-    - name
-    - bio/description/intro
-    - menu link
+    - name (required)
     - location
-    - phone number
-    - operation hours
-    - tags for handicap accessibility, gluten-free options, vegan options, patio/outdoor seating, dog friendly, family friendly, bar, etc.
+    - description
+    - image
+    - hours
+    - menu []
+    - tags for handicap accessibility, gluten-free options, vegan options, patio/outdoor seating, dog friendly, family friendly, bar, etc. []
+
+    ALL STRING DATATYPE
 */
+
 /* Default Label Colors */
 .success {background-color: #04AA6D;} /* Green */
 .info {background-color: #2196F3;} /* Blue */
 .warning {background-color: #ff9800;} /* Orange */
 .danger {background-color: #f44336;} /* Red */
-.other {background-color: #e7e7e7; color: black;} /* Gray */
+.other {background-color: #54414E; color: white;} /* Gray */
