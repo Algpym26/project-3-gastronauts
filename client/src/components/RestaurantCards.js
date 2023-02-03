@@ -15,54 +15,54 @@ const ReservationCards = () =>
 
     return (
         <div className = "container">
-            <div class="card">
-        <h3 class="title">Maggie's Moon Pies</h3>
-        <div class="bar">
-          <div class="emptybar"></div>
-          <div class="filledbar"></div>
+            <div className="card">
+        <h3 className="title">Maggie's Moon Pies</h3>
+        <div className="bar">
+          <div className="emptybar"></div>
+          <div className="filledbar"></div>
         </div>
-        <div class="circle">
+        <div className="circle">
           <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-          <circle id = "circleView" class="stroke" cx="60" cy="60" r="50"/>
+          <circle id = "circleView" className="stroke" cx="60" cy="60" r="50"/>
           <image href = {moonImage} alt = "moon" />
         </svg>
         </div>
       </div>
-      <div class="card">
-        <h3 class="title">Far Out Bar</h3>
-        <div class="bar">
-          <div class="emptybar"></div>
-          <div class="filledbar"></div>
+      <div className="card">
+        <h3 className="title">Far Out Bar</h3>
+        <div className="bar">
+          <div className="emptybar"></div>
+          <div className="filledbar"></div>
         </div>
-        <div class="circle">
+        <div className="circle">
           <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-          <circle class="stroke" cx="60" cy="60" r="50"/>
+          <circle className="stroke" cx="60" cy="60" r="50"/>
           <image href = {dipperImage} />
         </svg>
         </div>
       </div>
-      <div class="card">
-        <h3 class="title">Estella's</h3>
-        <div class="bar">
-          <div class="emptybar"></div>
-          <div class="filledbar"></div>
+      <div className="card">
+        <h3 className="title">Estella's</h3>
+        <div className="bar">
+          <div className="emptybar"></div>
+          <div className="filledbar"></div>
         </div>
-        <div class="circle">
+        <div className="circle">
           <svg version="1.1"  xmlns="http://www.w3.org/2000/svg">
-          <circle class="stroke" cx="60" cy="60" r="50"/>
+          <circle className="stroke" cx="60" cy="60" r="50"/>
           <image href = {cometImage} alt = "comet" />
         </svg>
         </div>
       </div>
-      <div class="card">
-        <h3 class="title">At the End of the Universe</h3>
-        <div class="bar">
-          <div class="emptybar"></div>
-          <div class="filledbar"></div>
+      <div className="card">
+        <h3 className="title">At the End of the Universe</h3>
+        <div className="bar">
+          <div className="emptybar"></div>
+          <div className="filledbar"></div>
         </div>
-        <div class="circle">
+        <div className="circle">
           <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-          <circle class="stroke" cx="60" cy="60" r="50"/>
+          <circle className="stroke" cx="60" cy="60" r="50"/>
           <image href = {novaImage} />
         </svg>
         </div>
