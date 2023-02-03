@@ -2,6 +2,9 @@ import React from 'react'
 import './styles/navbar.css';
 
 const Navbar = () => {
+
+  // const logo = url()
+
   return (
     <div>
   <nav className="navbar navbar-expand-lg bg-body-tertiary">   
