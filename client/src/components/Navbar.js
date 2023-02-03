@@ -1,4 +1,5 @@
 import React from 'react'
+import './styles/navbar.css';
 
 const Navbar = () => {
   return (
@@ -16,7 +17,7 @@ const Navbar = () => {
     
     </li>
     <li className="nav-item">
-        sing up
+        sign up
 
     </li>
     </ul>
