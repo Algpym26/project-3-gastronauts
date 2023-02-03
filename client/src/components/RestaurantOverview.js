@@ -20,8 +20,8 @@ const RestaurantOverview = () => {
                 </p>
                 <h2>Tags</h2>
                 <div>
-                    <span class="label other">Dog Friendly</span>
-                    <span class="label other">Gluten Free</span>
+                    <span className="label other">Dog Friendly</span>
+                    <span className="label other">Gluten Free</span>
                 </div>
                 {'\n'}
                 <button className='resBtn'>Make A Reservation</button>

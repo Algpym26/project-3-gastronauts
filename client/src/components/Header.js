@@ -1,14 +1,23 @@
-import React from 'react'
-import Navbar from './Navbar'
-import{AiOutlineLogin} from"react-icons/md"
+import React from 'react';
+// import Navbar from './Navbar';
+// import{AiOutlineLogin} from"react-icons/md"
+// import { GiSpaceShuttle, GiSpaceSuit } from "react-icons/gi";
+import './styles/header.css';
+
 const Header = () => {
   return (
-    <div>
+    <div className="header-container">
+      {/* <div className="shuttle">
+        <GiSpaceShuttle />
+      </div> */}
       <h1>GASTRONAUTS</h1>
-<Navbar/>
+      {/* <div className="suit">
+        <GiSpaceSuit />
+      </div> */}
+{/* <Navbar/> */}
 
     </div>
   )
-}
+};
 
-export default Header
+export default Header;
