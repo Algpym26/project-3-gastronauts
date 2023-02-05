@@ -4,6 +4,8 @@ import { Routes, Route } from 'react-router-dom';
 import { ApolloClient, ApolloProvider, InMemoryCache } from '@apollo/client';
 import Main from '../src/components/Main';
 import Reservations from './components/ReservationForm';
+// import Login from './components/loginForm';
+// import SignUp from './components/signupForm';
 
 const client = new ApolloClient({
   uri: '/graphql',
@@ -16,6 +18,8 @@ function App() {
     <Routes>
     <Route path = "/" element = {<Main />} />
     <Route path = "/reservation" element = {<Reservations />} />
+    {/* <Route path = "/login" element = {<Login />} /> */}
+    {/* <Route path = "/signup" element = {<SignUp />} /> */}
     </Routes>
     </ApolloProvider>
   );

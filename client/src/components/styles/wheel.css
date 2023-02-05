@@ -86,12 +86,12 @@ body {
     left: calc(50% - 60px);
   }
 
-  image {
+  svg image {
     position: absolute;
     width: 70px;
     height: 70px;
-    border-radius: 36px;
     opacity: 0;
+    border-radius: 80px;
   }
 
   image:hover {
