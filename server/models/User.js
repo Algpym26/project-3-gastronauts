@@ -1,7 +1,7 @@
 const { Schema, model } = require('mongoose');
 
 //Will need to import a schema
-const { Schema } = mongoose;
+
 
 const restaurantSchema = require ('./restaurant')
 
@@ -34,7 +34,7 @@ const UserSchema = new Schema(
   );
 
   //Hashing the password
-  userSchema.pre('save', async function (next) {
+  UserSchema.pre('save', async function (next) {
     if (this.isNew || this.isModified('password')) {
       const saltRounds = 10;
       this.password = await bcrypt.hash(this.password, saltRounds);
@@ -44,16 +44,16 @@ const UserSchema = new Schema(
   });
 
   //Method to validate the users password when logging in
-  userSchema.methods.isCorrectPassword = async function (password) {
+  UserSchema.methods.isCorrectPassword = async function (password) {
     return bcrypt.compare(password, this.password);
   };
 
 
-  userSchema.virtual('reservationNum').get(function () {
+  UserSchema.virtual('reservationNum').get(function () {
     return this.madeReservations.length;
   });
   
-  const User = model('User', userSchema);
+  const User = model('User', UserSchema);
   
   module.exports = User;
   
