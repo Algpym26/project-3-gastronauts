@@ -51,10 +51,21 @@ reservationDate();
                 </div>
                 <div className = "elem-group">
               <label for = "email">Your E-mail</label>
-              <input type = "email" id = "email" name = "visitor_email" placeholder = "marbrite10@email.com" required/>
+              <input type = "email" id = "email" name = "customer_email" placeholder = "marbrite10@email.com" required/>
               <div className = "elem-group">
               <label for = "phone">Your Phone Number (We text updates)</label>
               <input type = "tel" id = "phone" name = "customer_phone" placeholder = "498-348-3872" pattern = {phoneChecker} required />
+            </div>
+            <div className = "elem-group">
+              <label for = "reservation-selection">At which restaurant are you making the reservation or to-go order?</label>
+              <select id = "reservation-selection" name = "reservation_choice" required>
+                  <option value = "">Choose which restaurant</option>
+                  <option value = "magggie_mp">Maggie's Moon Pies</option>
+                  <option value = "far_out_bar">Far Out Bar</option>
+                  <option value = "estella">Estella's</option>
+                  <option value = "at_the_end">At the End of the Universe</option>
+                  <option value = "no-seating">No reservation / To-Go Order</option>
+              </select>
             </div>
             <hr/>
             <div className = "elem-group inlined">
