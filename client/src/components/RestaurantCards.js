@@ -1,21 +1,17 @@
 import './styles/wheel.css';
+import moon from '../asset/images/planet1.PNG';
+import dipper from '../asset/images/dipper.PNG';
+import comet from '../asset/images/comet.PNG';
+import nova from '../asset/images/nova.PNG';
 
 // import './https://fonts.googleapis.com/css?family=Open+Sans:300i,400';
 
 const ReservationCards = () =>
 {
 
-    const moonImage = "./asset/images/planet1.PNG";
-
-    const dipperImage = "./asset/images/dipper.PNG";
-
-    const cometImage = "./asset/images/comet.PNG";
-
-    const novaImage = "./asset/images/nova.PNG";
-
     return (
         <div className = "container">
-            <div className="card">
+            <div className="card moon">
         <h3 className="title">Maggie's Moon Pies</h3>
         <div className="bar">
           <div className="emptybar"></div>
@@ -24,7 +20,7 @@ const ReservationCards = () =>
         <div className="circle">
           <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
           <circle id = "circleView" className="stroke" cx="60" cy="60" r="50"/>
-          <image href = {moonImage} alt = "moon" />
+          <image href = {moon} alt = "moon" />
         </svg>
         </div>
       </div>
@@ -37,7 +33,7 @@ const ReservationCards = () =>
         <div className="circle">
           <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
           <circle className="stroke" cx="60" cy="60" r="50"/>
-          <image href = {dipperImage} />
+          <image href = {dipper} />
         </svg>
         </div>
       </div>
@@ -50,7 +46,7 @@ const ReservationCards = () =>
         <div className="circle">
           <svg version="1.1"  xmlns="http://www.w3.org/2000/svg">
           <circle className="stroke" cx="60" cy="60" r="50"/>
-          <image href = {cometImage} alt = "comet" />
+          <image href = {comet} alt = "comet" />
         </svg>
         </div>
       </div>
@@ -63,7 +59,7 @@ const ReservationCards = () =>
         <div className="circle">
           <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
           <circle className="stroke" cx="60" cy="60" r="50"/>
-          <image href = {novaImage} />
+          <image href = {nova} />
         </svg>
         </div>
       </div>

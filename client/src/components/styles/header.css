@@ -9,3 +9,9 @@
     z-index: 3;
     border: 5px double #ffb300;
 }
+
+@media screen and (max-width: 830px) {
+    .header-container {
+        width: 100vh;
+    }
+}

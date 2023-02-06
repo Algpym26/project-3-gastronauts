@@ -86,12 +86,12 @@ body {
     left: calc(50% - 60px);
   }
 
-  image {
+  svg image {
     position: absolute;
     width: 70px;
     height: 70px;
-    border-radius: 36px;
     opacity: 0;
+    border-radius: 80px;
   }
 
   image:hover {
@@ -115,4 +115,14 @@ body {
   .card:hover .stroke {
     stroke-dashoffset: 40;
     transition: 0.6s ease-out;
+  }
+
+  @media screen and (max-width: 830px) {
+    .container {
+      display: grid;
+      flex-direction: column;
+      position: center; 
+      margin-left: 320px;
+      gap: 20px;
+    }
   }

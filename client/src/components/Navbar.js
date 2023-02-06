@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 import './styles/navbar.css';
 
 const Navbar = () => {
@@ -15,13 +16,22 @@ const Navbar = () => {
 
 <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav me-auto mb-2 mb-lg-0"> 
-    <li className="nav-item">
-        Login
-    
+    <li className = "nav-item">
+    <NavLink exact = "true" activeclassname = "active" to = "/"> Main
+            </NavLink>
     </li>
     <li className="nav-item">
-        Sign Up
-
+    <NavLink exact = "true" activeclassname = "active" to = "/login"> Login
+            </NavLink>
+    </li>
+    <li className="nav-item">
+    <NavLink exact = "true" activeclassname = "active" to = "/signup"> Signup
+            </NavLink>
+  
+    </li>
+    <li className="nav-item">
+    <NavLink exact = "true" activeclassname = "active" to = "/reservation"> Reserve
+            </NavLink>
     </li>
     </ul>
 </div>
