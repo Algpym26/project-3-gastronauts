@@ -11,7 +11,7 @@ const ReservationCards = () =>
 
     return (
         <div className = "container">
-            <div className="card">
+            <div className="card moon">
         <h3 className="title">Maggie's Moon Pies</h3>
         <div className="bar">
           <div className="emptybar"></div>

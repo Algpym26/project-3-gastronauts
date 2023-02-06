@@ -116,3 +116,13 @@ body {
     stroke-dashoffset: 40;
     transition: 0.6s ease-out;
   }
+
+  @media screen and (max-width: 830px) {
+    .container {
+      display: grid;
+      flex-direction: column;
+      position: center; 
+      margin-left: 320px;
+      gap: 20px;
+    }
+  }
