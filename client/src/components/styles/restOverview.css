@@ -27,6 +27,14 @@ p {
     padding-bottom: 15px;  
 }
 
+.hours {
+    background-color: white;
+    width: auto;
+    height: auto;
+    border: 1px solid #2E232A;
+} 
+/* ^ NOT IN REACT YET */
+
 .label {
     padding: 8px;
 }
