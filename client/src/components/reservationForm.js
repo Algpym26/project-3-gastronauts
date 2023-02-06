@@ -1,4 +1,5 @@
 import React from 'react';
+import Sidebar from './Navbar';
 import './styles/reservation.css';
 
 const ReservationForm = () => {
@@ -32,15 +33,13 @@ var reservationTime = document.querySelector("#reservation-time");
 
 reservationDate.setAttribute("min", saveDate);
 
-reservationDate.onchange = function () {
-    reservationTime.setAttribute("min", this.value);
-    // if(this.value.min < 15) {
-    //   min = 0;
-    // }
+reservationTime.onchange = function () {
+    reservationDate.setAttribute("min", this.value);
 }
 
     return (
         <div>
+          <Sidebar/>
             <form action = "reservation.php" method = "post">
                 <div className = "elem-group">
                     <label for = "name">Your Preferred Name</label>
@@ -64,11 +63,11 @@ reservationDate.onchange = function () {
             </div>
             <div class = "elem-group inlined">
               <label for = "reservation-date">Reservation Date</label>
-              <input type ="date" id = "reservation-date" name = "reservation_date" required />
+              <input type ="date" id = "reservation-date" name = "reservation-date" required />
             </div>
             <div class = "elem-group inlined">
               <label for = "reservation-time">Reservation Time</label>
-              <input type = "time" id = "reservation-time" name = "reservation_time" step = "900" required />
+              <input type = "time" id = "reservation-time" name = "reservation-time" step = "900" required />
             </div>
             <div class = "elem-group">
               <label for = "seating-selection">Seating Preference</label>

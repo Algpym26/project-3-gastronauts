@@ -1,9 +1,11 @@
 import './styles/login.css';
+import Sidebar from './Navbar';
 
 const Login = () => {
 
     return (
         <div>
+            <Sidebar/>
     <header>
     <h1>Welcome to Gastronauts</h1>
     <p>Enter your credentials and you can get started making your reservation!</p>

@@ -1,3 +1,5 @@
+function reservationDate(){
+
 var currentDateTime = new Date();
 
 var year = currentDateTime.getFullYear();
@@ -22,8 +24,12 @@ var reservationTime = document.querySelector("#reservation-time");
 reservationDate.setAttribute("min", dateTomorrow);
 
 reservationTime.onchange = function () {
-    checkoutElem.setAttribute("min", this.value);
-    if(this.value.min < 15) {
-      min = 0;
-    }
+    reservationDate.setAttribute("min", this.value);
+    // if(this.value.min < 15) {
+    //   min = 0;
+    // }
 }
+
+}
+
+reservationDate();
