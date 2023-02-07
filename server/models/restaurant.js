@@ -33,6 +33,18 @@ const restaurantSchema = new Schema({
 
     {
       type: String
+    },
+
+    {
+      type: String
+    },
+
+    {
+      type: String
+    },
+
+    {
+      type: String
     }
   ],
 
@@ -40,6 +52,12 @@ const restaurantSchema = new Schema({
     {
       type: String,
     },
+    {
+      type: String,
+    },
+    {
+      type: String,
+    }
   ],
 });
 
