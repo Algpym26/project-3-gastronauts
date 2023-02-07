@@ -5,6 +5,13 @@ import { Redirect } from 'react-router-dom';
 const RestaurantOverview = () => {
     const restaurant = seed; // ADD SO THAT THE SEED IS PASSED A SPECIFIED RESTAURANT OBJECT IN THE SEED ARRAY
     //pass seed the array index of the restaurant for each restaurant? ex. seed[0] for Maggie's Moon Pies
+    /* ex. 
+    import {index (index of the restaurant array from restaurant card)} from 'RestaurantCards.js';
+
+    (inside function)
+    
+    const restaurant = seed[index];
+    */
     return (
         <div className='card'>
             <section className='card container'>
