@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/Asantowasso/project-3-gastronauts#readme",
   "dependencies": {
-    "concurrently": "^7.6.0"
+    "concurrently": "^7.6.0",
+    "jsonwebtoken": "^9.0.0"
   }
 }
