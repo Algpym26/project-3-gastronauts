@@ -68,23 +68,23 @@
     },
 
     {
-        "name": "",
-        "location": "",
-        "description": "",
+        "name": "At The End of the Universe",
+        "location": "Richmond, VA",
+        "description": "Where do you find the best tacos in RVA? Only At The End of the Universe! Join us at the collaboration sister restaurant from the owners of Estella's and Far Out Bar! Indulge in a variety of dishes inspired from Tex Mex and Southeast Asian flavors. You won't want to trek home after you've tasted these tacos!",
         "image": "",
-        "hours": "",
+        "hours": "11AM - 9PM Tuesday through Thursday {'\n'}11AM - 12AM Friday through Sunday {'\n'}CLOSED Monday",
         "menu": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "Pozole - hominy stew with beans, choose from blanco, verde, or rojo. $6",
+            "Arroz Caldo - chicken and rice stewed in bone broth and fish sauce, garnished with green onions and ginger. $6",
+            "Chicken Adobo Tacos - chicken braised in soy sauce, black vinegar, garlic, bay leaves, and peppercorns. Served with white rice and house pico de gallo. Corn or flour tortillas available. $15",
+            "Ropa Vieja Tacos - shredded flank steak stewed in tomato sauce. Served with yellow rice and black beans. Corn or flour tortillas available. $15",
+            "Calamansi Shrimp Tacos - grilled shrimp, calamansi, cilantro, and arugula. Served with brown rice and house pico de gallo. Corn or flour tortillas available. $14",
+            "Pineapple Potato Tacos - grilled pineapple, potatoes, and zucchini with lime crema. Served with white rice and house pico de gallo. Corn or flour tortillas available. $14"
         ],
         "tags": [
-            "",
-            "",
-            ""
+            "Outdoor/Patio",
+            "Dog Friendly",
+            "Vegan Options"
         ]
     }
 ]
