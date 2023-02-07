@@ -28,6 +28,7 @@ function SignupForm(props) {
   };
 
   const handleFormSubmit = async (event) => {
+    console.log("event:",event)
     event.preventDefault();
 
     const form = event.currentTarget;

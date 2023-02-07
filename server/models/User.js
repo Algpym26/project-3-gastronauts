@@ -1,5 +1,5 @@
 const { Schema, model } = require('mongoose');
-
+const bcrypt = require('bcrypt');
 //Will need to import a schema
 
 
