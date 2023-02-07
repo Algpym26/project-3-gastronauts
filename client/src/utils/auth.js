@@ -1,32 +1,7 @@
-const jwt = require("jsonwebtoken");
+class Auth {
+  login(token) {
+    // TODO: build this function
+  }
+}
 
-const secret = "shhhsecret";
-const expiration = "2h";
-
-module.exports = {
-  authMiddleware: function ({ req }) {
-    let token = req.query.token || req.headers.authorization;
-
-    if (req.headers.authorization) {
-      token = token.split(" ").pop().trim();
-    }
-
-    if (!token) {
-      return req;
-    }
-
-    try {
-      const { data } = jwt.verify(token, secret, { maxAge: expiration });
-      req.user = data;
-    } catch {
-      console.log("Invalid token");
-    }
-
-    return req;
-  },
-  signToken: function ({ username, email, _id }) {
-    const payload = { username, email, _id };
-
-    return jwt.sign({ data: payload }, secret, { expiresIn: expiration });
-  },
-};
+export default new Auth();
