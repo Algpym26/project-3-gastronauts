@@ -47,23 +47,23 @@
     },
 
     {
-        "name": "",
-        "location": "",
-        "description": "",
+        "name": "Estella's",
+        "location": "Richmond, VA",
+        "description": "Enjoy an evening under the stars with Estella's Italian Cuisine. With our candlelit views of the Richmond City skyline, you're bound to be in for a night to remember. Join us for our monthly wine tasting events every third Wednesday of the month!",
         "image": "",
-        "hours": "",
+        "hours": "12PM - 10PM Monday through Thursday {'\n'}12PM - 2AM Friday through Sunday",
         "menu": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "Tagliatelle Bolognese - handmade tagliatelle noodles covered in rich bolognese sauce and topped with parmigiano reggiano. $18",
+            "Pesto Cavatappi - fresh basil pesto made with pine nuts and parmesan tossed with cavatappi noodles and garnished with sun-dried tomatoes. $19",
+            "Chicken Parmeson - parmesan crusted lemon chicken breast baked with spaghetti, marinara, and mozzarella. $20",
+            "Salmon Risotto - creamy chipotle risotto with spinach, red peppers, and grilled salmon. $20",
+            "Ratatouille - thin layers of tomato, eggplant, zucchini, and squash stewed in a rich garlic vegetable sauce. $18",
+            "Come in to check out our drink menu!"
         ],
         "tags": [
-            "",
-            "",
-            ""
+            "Bar",
+            "Outdoor/Patio",
+            "Vegan Options"
         ]
     },
 
