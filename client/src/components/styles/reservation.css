@@ -61,3 +61,34 @@ body {
   button:hover {
     box-shadow: 0px 0px 15px 5px rgb(239, 239, 180);
   }
+
+  @media screen and (max-width: 830px) {
+
+    form {
+      margin-left: 20px;
+      font-size: 10px;
+    }
+
+    div.elem-group {
+      margin: 10px 0;
+    }
+    
+    div.elem-group.inlined {
+      width: 19%;
+      float: left;
+      margin-left: 1%;
+    }
+    
+    label {
+      display: block;
+      font-family: 'Nanum Gothic';
+      padding-bottom: 6px;
+      font-size: 1.00em;
+    }
+    
+    input, select, textarea {
+      font-size: 1.25em;
+      width: 70%;
+      padding: 10px;
+    }
+}
