@@ -1,5 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import{BsFillTelephoneInboundFill} from "react-icons/bs";
+import{MdEmail, MdLocationCity} from "react-icons/md";
 import './styles/navbar.css';
 
 const Navbar = () => {
@@ -36,7 +38,14 @@ const Navbar = () => {
     </ul>
 </div>
   </div>
-  </nav>    
+  <div className = "footer">
+    <h2>Contact Us</h2>  
+    <BsFillTelephoneInboundFill/>
+    <MdEmail/>
+    <MdLocationCity/>
+    </div>
+  </nav>
+  
     </div>
   )
 }

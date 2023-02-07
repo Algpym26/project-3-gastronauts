@@ -1,8 +1,8 @@
 import Header from '../components/Header';
 import Navbar from '../components/Navbar';
 import RestaurantCards from '../components/RestaurantCards';
-import Footer from '../components/Footer';
-import Signup from '../components/Signup';
+// import Footer from '../components/Footer';
+// import Signup from '../components/Signup';
 import './styles/main.css';
 
 const Main = () => {
@@ -17,9 +17,6 @@ const Main = () => {
             
             <div className = "RestaurantCards">
                 <RestaurantCards />
-            </div>
-            <div className = "Footer">
-                <Footer />
             </div>
             </div>
     )
