@@ -1,9 +1,9 @@
 import './styles/restOverview.css';
 import seed from '../../../server/seeds/DDD.json';
 import { Redirect } from 'react-router-dom';
-
+// Make sure restaurant cards link up to this component, pass value so that a restaurant is specified
 const RestaurantOverview = () => {
-    const restaurant = seed;
+    const restaurant = seed; // ADD SO THAT THE SEED IS PASSED A SPECIFIED RESTAURANT OBJECT IN THE SEED ARRAY
     return (
         <div className='card'>
             <section className='card container'>
