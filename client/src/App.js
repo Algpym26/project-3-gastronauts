@@ -3,7 +3,7 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import { ApolloClient, ApolloProvider, InMemoryCache } from "@apollo/client";
 import Main from "../src/components/Main";
-import Reservations from "./components/ReservationForm";
+import Reservations from "./components/reservationForm";
 // import Sidebar from './components/Navbar';
 import Login from "./components/Login";
 import SignUp from './components/Signup';
