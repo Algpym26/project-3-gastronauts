@@ -6,42 +6,22 @@
         "image": "",
         "hours": "10:30AM - 6PM Monday through Thursday {'\n'}10:30AM - 9PM Friday through Saturday {'\n'}CLOSED Sunday",
         "menu": [
-            {
-                
-            },
+            "FULL MOON - our classic graham, chocolate, marshmallow moon pie. $6",
 
-            {
+            "VENUS VANILLA - vanilla flavored marshmallow fluff, matcha graham crackers, white chocolate. $7.50",
 
-            },
+            "STRAWBERRY SATURN - strawberry flavored marshmallow fluff, golden graham crackers, white chocolate with freeze dried strawberries. $7.50",
 
-            {
+            "DARK SIDE OF THE MOON - chocolate flavored marshmallow fluff, dark chocolate graham crackers, dark chocolate with white chocolate drizzle. $7",
 
-            },
-
-            {
-
-            },
-
-            {
-
-            },
-
-            {
-
-            }
+            "MATCHA ON MARS - matcha flavored marshmallow fluff, matcha graham crackers, matcha-infused white chocolate. $8",
+            
+            "PUP ALDRIN - a cup of whipped cream with a crescent dog treat. $0"
         ],
         "tags": [
-            {
-
-            },
-
-            {
-
-            },
-
-            {
-                
-            }
+            "Vegan Options",
+            "Outdoor/Patio",
+            "Dog Friendly"
         ]
     }
 ]
