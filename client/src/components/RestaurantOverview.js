@@ -1,5 +1,6 @@
 import './styles/restOverview.css';
 import seed from '../../../server/seeds/DDD.json';
+import { Redirect } from 'react-router-dom';
 
 const RestaurantOverview = () => {
     const restaurant = seed;
@@ -28,7 +29,7 @@ const RestaurantOverview = () => {
                     <span className="label other">{restaurant.tags[2]}</span>
                 </div>
                 {'\n'}
-                <button className='resBtn' onClick={'./ReservationForm'}>Make A Reservation</button>
+                <button className='resBtn' onClick={Redirect("/ReservationForm")}>Make A Reservation</button>
             </section>
         </div>
     )
