@@ -10,36 +10,39 @@ const ReservationForm = () => {
 
     const textBoxMessage = "Dietary restrictions, handicap accessibility, special occasion, or something not listed here?";
 
-    function reservationDate(){
+//     // function reservationDate(){
 
-var currentDateTime = new Date();
+//       var currentDateTime = new Date();
 
-var year = currentDateTime.getFullYear();
+//       var year = currentDateTime.getFullYear();
 
-var month = (currentDateTime.getMonth() + 1);
+//       var month = (currentDateTime.getMonth() + 1);
 
-var date = (currentDateTime.getDate() + 1);
+//       var date = (currentDateTime.getDate() + 1);
 
-if(date < 10) {
-  date = '0' + date;
-}
-if(month < 10) {
-  month = '0' + month;
-}
+//       if(date < 10) {
+//         date = '0' + date;
+//       }
+//       if(month < 10) {
+//         month = '0' + month;
+//       }
 
-var saveDate = year + "-" + month + "-" + date;
+//       let saveDate = year + "-" + month + "-" + date;
 
-var reservationDate = document.querySelector("#reservation-date");
+//       let reservationDate = document.querySelector("#reservation-date");
 
-var reservationTime = document.querySelector("#reservation-time");
+//       let reservationTime = document.querySelector("#reservation-time");
+//       console.log("saveDate: ", saveDate)
+//       console.log("this.value: ", this.value)
+//       reservationDate.setAttribute("min", saveDate);
 
-reservationDate.setAttribute("min", saveDate);
+//       reservationDate.onchange = function () {
+//         console.log("this.value: ", this.value);
+//           reservationTime.setAttribute("min", this.value);
+//     // }
+// // }
 
-reservationTime.onchange = function () {
-    reservationDate.setAttribute("min", this.value);
-}}
-
-reservationDate();
+// // reservationDate();
 
     return (
         <div>
