@@ -1,6 +1,7 @@
-# project-3-gastronauts ( Description)
+# DESCRIPTION
+
  An Application that allows the users to make a reservation at the selection of the Restaurant of them choice
- 
+
 ## Instalation
 
 ## Usage
