@@ -15,13 +15,76 @@
             "DARK SIDE OF THE MOON - chocolate flavored marshmallow fluff, dark chocolate graham crackers, dark chocolate with white chocolate drizzle. $7",
 
             "MATCHA ON MARS - matcha flavored marshmallow fluff, matcha graham crackers, matcha-infused white chocolate. $8",
-            
+
             "PUP ALDRIN - a cup of whipped cream with a crescent dog treat. $0"
         ],
         "tags": [
             "Vegan Options",
             "Outdoor/Patio",
             "Dog Friendly"
+        ]
+    },
+
+    {
+        "name": "Far Out Bar",
+        "location": "Richmond, VA",
+        "description": "Far Out Bar is Richmond's premiere space-themed bar and grill. Taste your way through the galaxy with our small plate menu, extensive drink options, and an atmosphere that might take your breath away! Our Happy Hour is every weekday from 4-7pm.",
+        "image": "",
+        "hours": "11AM - 9:30PM Sunday through Thursday {'\n'}11AM - 12AM Friday through Saturday",
+        "menu": [
+            "SPACECRAFT WINGS - 8 crispy chicken wings tossed in honey mustard sriracha sauce, served with a side of cucumbers and bleu cheese or ranch dressing. $12",
+            "SIGNS OF VEGETATION - celery, carrots, bell peppers,, and cucumbers cut into matchsticks and served with a side of saffron garlic hummus. $9",
+            "ASTEROIDS AHEAD - half flaky salt half cinnamon sugar pretzel bites, served with sweet donut glaze and cheddar melted cheese dip. $10",
+            "THE MOON IS CHEESE - 6 deep-fried mozzarella sticks, served with marinara and pesto. $8",
+            "PURPLE PICKLE EATER - purple fried pickle coins with house ranch and chipotle mayo. $8",
+            "Come in to check out our drink menu!"
+        ],
+        "tags": [
+            "Bar",
+            "Gluten Free Options",
+            "Vegan Options"
+        ]
+    },
+
+    {
+        "name": "",
+        "location": "",
+        "description": "",
+        "image": "",
+        "hours": "",
+        "menu": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "tags": [
+            "",
+            "",
+            ""
+        ]
+    },
+
+    {
+        "name": "",
+        "location": "",
+        "description": "",
+        "image": "",
+        "hours": "",
+        "menu": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "tags": [
+            "",
+            "",
+            ""
         ]
     }
 ]
