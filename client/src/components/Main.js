@@ -14,9 +14,6 @@ const Main = () => {
             <div className = "Navbar">
                 <Navbar />
             </div>
-                <div className = "Signup">
-                <Signup />
-            </div>
             
             <div className = "RestaurantCards">
                 <RestaurantCards />
