@@ -32,5 +32,5 @@ MIT License
 ## Credits
 Aaron Santowasso: <!--Github Link-->
 Ana Palma: <!--Github Link-->
-Bernie Migo: <!--Github Link-->
+Bernie Migo: https://github.com/bmigo
 Brayden Burleigh: <!--Github Link-->

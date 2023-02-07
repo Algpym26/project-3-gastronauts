@@ -9,5 +9,4 @@ db.once('open', async () => {
   const dinersDriveInsAndDives = await DDandD.insertMany(Diner);
 
   console.log('Restaurants seeded!');
-  process.exit(0);
 });
