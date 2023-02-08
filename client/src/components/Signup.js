@@ -8,6 +8,8 @@ import { ADD_USER } from "../utils/mutations";
 
 import Auth from "../utils/auth";
 
+import Sidebar from './Navbar';
+
 function SignupForm(props) {
   const [formState, setFormState] = useState({
     username: "",
@@ -63,6 +65,7 @@ function SignupForm(props) {
   return (
     <>
       {/* This is needed for the validation functionality above */}
+      <Sidebar/>
       <Form noValidate validated={false} onSubmit={handleFormSubmit}>
         {/* show alert if server response is bad */}
         <Alert

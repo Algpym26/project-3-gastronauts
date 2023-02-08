@@ -13,21 +13,25 @@ const ReservationCards = () => {
 
   const routeChangeMoon = () => {
     let path = `overview`;
+    let index = 0;
     navigate(path);
   }
 
   const routeChangeDipper = () => {
     let path = `overview`;
+    let index = 1;
     navigate(path);
   }
 
   const routeChangeComet = () => {
     let path = `overview`;
+    let index = 2;
     navigate(path);
   }
 
   const routeChangeNova = () => {
     let path = `overview`;
+    let index = 3;
     navigate(path);
   }
 
