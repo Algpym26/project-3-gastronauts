@@ -10,7 +10,23 @@ import nova from '../asset/images/nova.PNG';
 const ReservationCards = () => {
 
   let navigate = useNavigate();
-  const routeChange = () => {
+
+  const routeChangeMoon = () => {
+    let path = `overview`;
+    navigate(path);
+  }
+
+  const routeChangeDipper = () => {
+    let path = `overview`;
+    navigate(path);
+  }
+
+  const routeChangeComet = () => {
+    let path = `overview`;
+    navigate(path);
+  }
+
+  const routeChangeNova = () => {
     let path = `overview`;
     navigate(path);
   }
@@ -22,7 +38,7 @@ const ReservationCards = () => {
         <div className="bar">
           <div className="emptybar"></div>
           <div className="filledbar"></div>
-          <button className="button" onClick = {routeChange}>More Maggie's</button>
+          <button className="button" onClick = {routeChangeMoon}>More Maggie's</button>
         </div>
         <div className="circle">
           <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
@@ -36,7 +52,7 @@ const ReservationCards = () => {
         <div className="bar">
           <div className="emptybar"></div>
           <div className="filledbar"></div>
-          <button className="button">More Far Out</button>
+          <button className="button" onClick = {routeChangeDipper}>More Far Out</button>
         </div>
         <div className="circle">
           <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
@@ -50,7 +66,7 @@ const ReservationCards = () => {
         <div className="bar">
           <div className="emptybar"></div>
           <div className="filledbar"></div>
-          <button className="button">More Estella's</button>
+          <button className="button" onClick = {routeChangeComet}>More Estella's</button>
         </div>
         <div className="circle">
           <svg version="1.1"  xmlns="http://www.w3.org/2000/svg">
@@ -64,7 +80,7 @@ const ReservationCards = () => {
         <div className="bar">
           <div className="emptybar"></div>
           <div className="filledbar"></div>
-          <button className="button">More At the End</button>
+          <button className="button" onClick = {routeChangeNova}>More At the End</button>
         </div>
         <div className="circle">
           <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
