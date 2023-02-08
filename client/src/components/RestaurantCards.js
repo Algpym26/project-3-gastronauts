@@ -7,12 +7,11 @@ import nova from '../asset/images/nova.PNG';
 
 // import './https://fonts.googleapis.com/css?family=Open+Sans:300i,400';
 
-const ReservationCards = () =>
-{
+const ReservationCards = () => {
 
   let navigate = useNavigate();
   const routeChange = () => {
-    let path = `newPath`;
+    let path = `overview`;
     navigate(path);
   }
 

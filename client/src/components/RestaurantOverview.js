@@ -1,6 +1,6 @@
 import './styles/restOverview.css';
-import seed from '../../../server/seeds/DDD.json';
-import { Redirect } from 'react-router-dom';
+import seed from '../seeds/DDD.json';
+import { useNavigate } from 'react-router-dom';
 // Make sure restaurant cards link up to this component, pass value so that a restaurant is specified
 const RestaurantOverview = () => {
     const restaurant = seed; // ADD SO THAT THE SEED IS PASSED A SPECIFIED RESTAURANT OBJECT IN THE SEED ARRAY
@@ -12,6 +12,13 @@ const RestaurantOverview = () => {
     
     const restaurant = seed[index];
     */
+
+    let navigate = useNavigate();
+    const routeChange = () => {
+    let path = `reservation`;
+    navigate(path);
+  }
+
     return (
         <div className='card'>
             <section className='card container'>
@@ -37,7 +44,7 @@ const RestaurantOverview = () => {
                     <span className="label other">{restaurant.tags[2]}</span>
                 </div>
                 {'\n'}
-                <button className='resBtn' onClick={Redirect("/ReservationForm")}>Make A Reservation</button>
+                <button className='resBtn' onClick={routeChange}>Make A Reservation</button>
             </section>
         </div>
     )
