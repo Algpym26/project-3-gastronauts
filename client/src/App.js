@@ -7,6 +7,7 @@ import Reservations from "./components/reservationForm";
 // import Sidebar from './components/Navbar';
 import Login from "./components/Login";
 import SignUp from './components/Signup';
+import Overview from "./components/RestaurantOverview";
 
 const client = new ApolloClient({
   uri: "/graphql",
@@ -22,6 +23,7 @@ function App() {
         <Route path="/reservation" element={<Reservations />} />
         <Route path="/login" element={<Login />} />
         <Route path = "/signup" element = {<SignUp />} />
+        <Route path = "/overview" element = {<Overview/>} />
       </Routes>
       {/* </Sidebar> */}
     </ApolloProvider>
