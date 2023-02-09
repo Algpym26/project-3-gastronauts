@@ -23,6 +23,7 @@ This is a free site that is accessible through the deployed link. Create an acco
 
 Deployed Link:
 Github Repository: https://github.com/Asantowasso/project-3-gastronauts
+Heroku: https://safe-badlands-66151.herokuapp.com/
 
 **PLEASE NOTE This is a student project website without any security. The authors are not responsible for any data the user may choose to give the website. All companies referenced are fake and there are no real reservations or restaurants. 
 
